@@ -4,6 +4,7 @@ import './App.css'
 import Book from './components/Book'
 import Accordion from './components/Accordion'
 import Contact from './components/Contact'
+import Todo from './components/Todo'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Accordion title='CSS' children='this is section 2'/>
        <Accordion title='JAVASCRIPT' children='this is section 3'/> */}
        <Contact/>
+       <Todo/>
 
     </>
   )
